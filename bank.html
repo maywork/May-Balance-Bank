@@ -22,7 +22,7 @@
       </div>
       <div class="bg-pink-400 p-8 rounded-xl">
         <h4 class="text-2xl">Withdraw</h4>
-        <h2 class="text-5xl">$00</h2>
+        <h2 class="text-5xl">$<span id="withdraw-total">00</span></h2>
       </div>
       <div class="bg-violet-400 p-8 rounded-xl">
         <h4 class="text-2xl">Balance</h4>
@@ -43,9 +43,10 @@
 
       <div class="bg-fuchsia-300 p-8 rounded-xl">
         <h4 class="text-2xl text-white">Please Withdraw</h4>
-        <input class="w-9/12 block mb-2 px-3" type="text" id="" placeholder="Please enter withdraw amount">
+        <input class="w-9/12 block mb-2 px-3" type="text" id="withdraw-field"
+          placeholder="Please enter withdraw amount">
         <button class="bg-indigo-700 hover:bg-sky-700 px-8 py-2 text-white font-medium rounded-lg"
-          id="">Withdraw</button>
+          id="btn-withdraw">Withdraw</button>
       </div>
     </div>
   </section>
